@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #313192;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(0, 74%, 53%);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-screen {
+    background-color: hsl(40, 60%, 59%);
+    height: 250px;
+    width: 100%;
+    width: 520px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+}

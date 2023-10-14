@@ -20,21 +20,47 @@ h1 {
 .container {
     width: 100%;
     max-width: 1400px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.box-screen {
-    background-color: hsl(40, 60%, 59%);
-    height: 250px;
+
+.gamepics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
     width: 100%;
-    width: 520px;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
-    display: flex;
+    max-width: 612px;
+    margin: 0 auto;
+    /* limit the width of the game */
 }
+
+.memory-card {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.back-face {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+
+}
+
+.front-face {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+

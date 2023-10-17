@@ -16,6 +16,19 @@ h1 {
     margin-bottom: 1rem;
     text-align: center;
 }
+#Winning-heading {
+    color: hsl(0, 25%, 58%);
+    margin-bottom: 1rem;
+    text-align: center;
+    display: none;
+}
+
+#Losing-heading {
+    color: hsl(0, 96%, 18%);
+    margin-bottom: 1rem;
+    text-align: center;
+    display: none;
+}
 
 .container {
     width: 100%;

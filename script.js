@@ -11,6 +11,15 @@ let moves = 0;
 let correctMatches = 0;
 let win = false;
 
+function shuffleCards() {
+    const cardArray = Array.from(cards);
+    cardArray.forEach(card => {
+        const randomPosition = Math.floor(Math.random() * cardArray.length);
+        card.style.order = randomPosition;
+    });
+}
+shuffleCards()
+// Anna and Gammy helped me on the shufflecards code. 
 
 cards.forEach((card) => {
     card.addEventListener("click", (event) => {
